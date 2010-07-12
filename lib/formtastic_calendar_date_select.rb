@@ -5,7 +5,7 @@ module DavidOshiro
       class Railtie < ::Rails::Railtie
         initializer 'formtastic.calendardateselect.initialize', :after => ['calendardateselect.initialize', 'formtastic.initialize'] do      
 
-          Formtastic::SemanticFormBuilder.module_eval do
+          ::Formtastic::SemanticFormBuilder.module_eval do
 
             include DavidOshiro::Formtastic::CalendarDateSelect
             
