@@ -10,7 +10,7 @@ Gem::Specification.new do |s|
   s.description = %q{A plugin for formtastic to integrate calendar_date_select date/time picker}
   s.email = %q{david@davidoshiro.com}
   s.extra_rdoc_files = ["README.textile", "lib/formtastic_calendar_date_select.rb", "tasks/formtastic_calendar_date_select_tasks.rake"]
-  s.files = ["MIT-LICENSE", "Manifest", "README.textile", "Rakefile", "lib/formtastic_calendar_date_select.rb", "rails/init.rb", "tasks/formtastic_calendar_date_select_tasks.rake", "test/formtastic_calendar_date_select_test.rb", "test/test_helper.rb", "formtastic_calendar_date_select.gemspec"]
+  s.files = ["MIT-LICENSE", "Manifest", "README.textile", "Rakefile", "lib/formtastic_calendar_date_select.rb", "test/formtastic_calendar_date_select_test.rb", "test/test_helper.rb", "formtastic_calendar_date_select.gemspec"]
   s.homepage = %q{http://github.com/dyohi/formtastic_calendar_date_select}
   s.post_install_message = %q{Thank you for installing formtastic_calendar_date_select. Form more information please go to http://github.com/dyohi/formtastic_calendar_date_select.}
   s.rdoc_options = ["--line-numbers", "--inline-source", "--title", "Formtastic_calendar_date_select", "--main", "README.textile"]
