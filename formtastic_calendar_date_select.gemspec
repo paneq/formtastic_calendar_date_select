@@ -2,10 +2,10 @@
 
 Gem::Specification.new do |s|
   s.name = %q{formtastic_calendar_date_select}
-  s.version = "0.1.0"
+  s.version = "0.2.0"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 1.2") if s.respond_to? :required_rubygems_version=
-  s.authors = ["David Oshiro"]
+  s.authors = ["David Oshiro", "Robert Pankowecki"]
   s.date = %q{2010-01-13}
   s.description = %q{A plugin for formtastic to integrate calendar_date_select date/time picker}
   s.email = %q{david@davidoshiro.com}
