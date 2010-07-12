@@ -10,7 +10,6 @@ module DavidOshiro
             include DavidOshiro::Formtastic::CalendarDateSelect
             
             def default_input_type_with_calendar(method, options = {})
-              raise 'x'
               return :calendar if column = self.column_for(method) && column.respond_to?(:type) && column.type == :date
               default_input_type_without_calendar(method, options)
             end
