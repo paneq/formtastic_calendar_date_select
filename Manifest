@@ -3,7 +3,5 @@ Manifest
 README.textile
 Rakefile
 lib/formtastic_calendar_date_select.rb
-rails/init.rb
-tasks/formtastic_calendar_date_select_tasks.rake
 test/formtastic_calendar_date_select_test.rb
 test/test_helper.rb
